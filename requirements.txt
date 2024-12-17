@@ -2,7 +2,7 @@ Pyrogram
 TgCrypto
 ffmpeg-python
 psutil
-py-tgcalls==0.0.2
+py-tgcalls==0.1.0
 wheel
 youtube_dl
 youtube_search_python
