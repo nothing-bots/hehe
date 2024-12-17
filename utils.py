@@ -27,7 +27,6 @@ try:
     import ffmpeg
     from pyrogram import emoji
     from pyrogram.methods.messages.download_media import DEFAULT_DOWNLOAD_DIR
-    from pytgcalls import GroupCallFactory
     import wget
     from asyncio import sleep
     from pyrogram import Client
