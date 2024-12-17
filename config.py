@@ -86,7 +86,7 @@ class Config:
     DELAY = int(os.environ.get("DELAY", 10))
     API_HASH = os.environ.get("API_HASH", "24620300")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8155721991:AAG5s1mh3gykXE7JEovgolr7vO2FPhpx6fk")     
-    SESSION = os.environ.get("SESSION_STRING", "")
+    SESSION = os.environ.get("SESSION_STRING", "BQAf70YAkQUg5qcid-P8Fkp9DeNgpQ4EDMO5CeVJMahWLtg5twDqfhTg8vtcDSa_t7oe_qx_12VpZU1MEi6ml0GgZkl7Uujs3pBjD4cwED2VjuxdTOF5HJ3p3vuCzAputZRyaZRIwycr5h4LfYIyq2yQPq-myJIeWa4VUBjKbIZ96Oavq8kAIpjBi4mQBbiEfbasaCvBadvSQHUDAjiCYBi0msQAV7tBQ52EiNmqPZV9SGeJgEmbdnOg1fZAtfHFW7r028CkGS5GX_Z_HdtY_KXqzVza6HRmMQQWERRXutbVzKVlWr6akkrMS2Tg7tlsivIc9B08GtdwMVJnmIqpH3nKJi8jkQAAAAF4jONRAA")
     playlist=[]
     msg = {}
     CONV = {}
