@@ -60,7 +60,7 @@ async def is_admin(_, client, message: Message):
 admin_filter=filters.create(is_admin)   
 
 
-@Client.on_message(filters.command(["play", f"play@{U}"]) & (filters.chat(CHAT) | filters.private) | filters.audio & filters.private)
+@Client.on_message(filters.command(["splay", f"play@{U}"]) & (filters.chat(CHAT) | filters.private) | filters.audio & filters.private)
 async def yplay(_, message: Message):
     if ADMIN_ONLY == "Y":
         admins = await mp.get_admins(CHAT)
@@ -298,7 +298,7 @@ async def yplay(_, message: Message):
             
         
    
-@Client.on_message(filters.command(["splay", f"splay@{U}"]) & (filters.chat(CHAT) | filters.private))
+@Client.on_message(filters.command(["play", f"splay@{U}"]) & (filters.chat(CHAT) | filters.private))
 async def deezer(_, message):
     if ADMIN_ONLY == "Y":
         admins = await mp.get_admins(CHAT)
